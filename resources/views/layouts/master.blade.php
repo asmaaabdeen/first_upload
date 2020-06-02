@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>BURGERBAR</title>
+<title>M-BURGER</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -27,7 +27,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
   <div class="container" style="margin-top:0px">
     <a class="navbar-brand" href="#">
-          <img src="https://static.ucraft.net/fs/userFiles/demo-burgerbar/images/logo.png?v=1514485357" style="margin-top:7px" height="28" alt="">
+          <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png"  height="32" alt="">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,7 +42,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/menu">Menu</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="/calories">Calories</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="/contacts">Contacts</a>
         </li>

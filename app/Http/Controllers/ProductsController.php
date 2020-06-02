@@ -15,6 +15,19 @@ class ProductsController extends Controller
 
         return view('products', compact('products'));
     }
+    public function index2()
+    {
+        $products = Product::all();
+
+        return view('menu', compact('products'));
+    }
+
+    public function index3()
+    {
+        $products = Product::all();
+
+        return view('secmenu', compact('products'));
+    }
 
     public function order()
     {

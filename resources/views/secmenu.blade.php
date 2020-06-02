@@ -46,33 +46,41 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home
-                <span class="sr-only">(current)</span>
-              </a>
+        
+      <li class="nav-item">
+          <a class="nav-link" href="/secmenu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/menu">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/calories">Calories</a>
+          <a class="nav-link" href="/calories">calories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contacts">Contacts</a>
         </li>
+        
         <li class="nav-item">
-          <a class="nav-link" href="/login">Make Order</a>
+          <a class="nav-link" href="/feedback">feedback</a>
         </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/shopping">Order</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">LogOut</a>
+        </li>
+        
         
       </ul>
     </div>
   </div>
 </nav>
 </div>
-<br>
-<h1 style="margin-left:690px;font-size:50px">Menu</h1>
-
+<div class="mb-3"></div>
+      <div style="width:1300px;margin-left:100px">
+      @include ('includes.messages')
+      </div>
       
+      <br>
+<h1 style="margin-left:690px;font-size:50px">Menu</h1>
 <div class="container page">
     
     <div class="container products">

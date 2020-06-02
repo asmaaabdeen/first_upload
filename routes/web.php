@@ -45,7 +45,8 @@ Route::get('/updates', function () {
 
 
    Route::get('/shopping', 'ProductsController@index');
-
+   Route::get('/menu', 'ProductsController@index2');
+   Route::get('/secmenu', 'ProductsController@index3');
    Route::get('order', 'ProductsController@order');
 
    Route::get('add-to-order/{id}', 'ProductsController@addToOrder');

@@ -1,7 +1,17 @@
 @extends('layouts.nav')
+<head>
+  
 
+    <!-- Main css -->
+    <link rel="stylesheet" href="{{ asset('css/maiin.css')}}">
+</head>
 @section('content')
+<div class="main" >
 
+        <section class="signup" >
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="contain" style="width:1100px">
+                <div class="signup-content">
     <div class="container">
   <div class="py-5 text-center">
     <h2><?php echo $title; ?></h2>
@@ -71,13 +81,19 @@
         </div>
 
         <hr class="mb-4">
+        <br>
         <button class="btn btn-primary btn-lg btn-block" type="submit" >Finishing Order</button>
       </form>
     </div>
   </div>
+  <br>
+  </div>
+            </div>
+        </section>
 
+    </div>
   <footer class="my-5 pt-5 text-muted text-center text-small">
-    <p class="mb-1">&copy; BurgerBar</p>
+    <p class="mb-1">&copy; M-Burger</p>
     <ul class="list-inline">
       <li class="list-inline-item"><a href="#">Privacy</a></li>
       <li class="list-inline-item"><a href="#">Terms</a></li>
@@ -85,6 +101,7 @@
     </ul>
   </footer>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
         <script src="form-validation.js"></script>
