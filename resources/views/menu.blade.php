@@ -26,11 +26,12 @@
      
             -webkit-background-size: cover;
             background-position: center center;
+            background-image: url("images/me.jpg");
             height: 100%;
             background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  backdrop-filter: blur(2px);
+            background-attachment: fixed;
+            background-size: cover;
+            backdrop-filter: blur(2px);
         }
 </style>
 </head>
@@ -46,7 +47,7 @@
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
+      <li class="nav-item active">
           <a class="nav-link" href="/">Home
                 <span class="sr-only">(current)</span>
               </a>
@@ -64,13 +65,14 @@
           <a class="nav-link" href="/login">Make Order</a>
         </li>
         
+        
       </ul>
     </div>
   </div>
 </nav>
 </div>
 <br>
-<h1 style="margin-left:690px;font-size:50px">Menu</h1>
+
 
       
 <div class="container page">
@@ -79,37 +81,36 @@
     
     <span id="status"></span>
     
+        <h1>MENU</h1>
+        <h3>Choose what you want to eat today</h3>
+    <br/><br/>
     <div class="row">
-    
         @foreach($products as $product)
             <div class="col-xs-18 col-sm-6 col-md-3">
+                <div class="dis">
                 <div class="thumbnail">
                     <img src="{{ $product->photo }}" width="500" height="300">
                     <div class="caption">
                         <h5>{{ $product->name }}</h5>
                         <p>{{ strtolower($product->description) }}</p>
                         <p><strong>Price: </strong> {{ $product->price }}$</p>
-                        
                         <i class="fa fa-circle-o-notch fa-spin btn-loading" style="font-size:24px; display: none"></i>
                         </p>
                     </div>
+                </div>
                 </div>
             </div>
         @endforeach
     
     </div><!-- End row -->
-    
     </div>
     
     </div>
     <script type="text/javascript">
             $(".add-to-order").click(function (e) {
                 e.preventDefault();
-    
                 var ele = $(this);
-    
                 ele.siblings('.btn-loading').show();
-    
                 $.ajax({
                     url: '{{ url('add-to-order') }}' + '/' + ele.attr("data-id"),
                     method: "get",
@@ -125,12 +126,21 @@
                 });
             });
         </script>
-    
-     
 </body>
 </html>
 
-
+<style>
+     h1{
+        text-align: center;
+        color:black;
+        font-style: italic;
+        font-family: cursive;
+    }
+    h3{
+      text-align: center;
+        color:black; 
+    }
+</style>
 
 
     

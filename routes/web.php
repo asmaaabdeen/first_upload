@@ -18,13 +18,13 @@ Route::get('/payment', 'BillingController@paymentMethod');
 Route::post('/login','BillingController@savePayment');
 Route::get('/register/submit','customerscontroller@register');
 Route::post('/register','customerscontroller@store');
-Route::get('/menu', function () {
-    return view('menu');
-});
+
 Route::get('/contacts', function () {
     return view('contacts');
 });
-
+Route::get('/secContact', function () {
+    return view('secContact');
+});
 
 
 

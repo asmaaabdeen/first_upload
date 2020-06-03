@@ -15,6 +15,7 @@ class FeedbackController extends Controller
       $feedback-> email = $req -> input('email');
       $feedback-> message = $req -> input('message');
       $feedback-> save();
+      return redirect('/feedback')->with('status','your feedback is sent successfully !');
     }
     public function feedback(){
       $title = 'Feedback';

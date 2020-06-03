@@ -26,11 +26,12 @@
      
             -webkit-background-size: cover;
             background-position: center center;
+            background-image: url("images/me.jpg");
             height: 100%;
             background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  backdrop-filter: blur(2px);
+            background-attachment: fixed;
+            background-size: cover;
+            backdrop-filter: blur(2px);
         }
 </style>
 </head>
@@ -54,7 +55,7 @@
           <a class="nav-link" href="/calories">calories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
+          <a class="nav-link" href="/secContact">Contacts</a>
         </li>
         
         <li class="nav-item">
@@ -80,13 +81,16 @@
       </div>
       
       <br>
-<h1 style="margin-left:690px;font-size:50px">Menu</h1>
+
 <div class="container page">
     
     <div class="container products">
     
     <span id="status"></span>
     
+    <h1>MENU</h1>
+    <h3>Choose what you want to eat today</h3>
+    <br/><br/>
     <div class="row">
     
         @foreach($products as $product)
@@ -137,6 +141,18 @@
      
 </body>
 </html>
+<style>
+  h1{
+     text-align: center;
+     color:black;
+     font-style: italic;
+     font-family: cursive;
+ }
+ h3{
+   text-align: center;
+     color:black; 
+ }
+</style>
 
 
 

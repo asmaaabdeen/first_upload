@@ -190,38 +190,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 	
 		
-        <div class="bs-example">
+        
+                <div class="bs-example">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
   <div class="container" style="margin-top:0px">
     <a class="navbar-brand" href="#">
-          <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png"  height="32" alt="">
+          <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png" style="margin-top:7px" height="28" alt="">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home
-                <span class="sr-only">(current)</span>
-              </a>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/secmenu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/menu">Menu</a>
+          <a class="nav-link" href="/calories">calories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/calories">Calories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
+          <a class="nav-link" href="/secContact">Contacts</a>
         </li>
         
+        <li class="nav-item">
+          <a class="nav-link" href="/feedback">feedback</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/shopping">Order</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">LogOut</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 </div>
-		
 	
 
                             </div>

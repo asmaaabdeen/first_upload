@@ -61,7 +61,7 @@
 </nav>
 </div>
 <div class="mb-3"></div>
-      <div style="width:1300px;margin-left:100px">
+      <div style="width:1300px;margin : 0 auto">
       @include ('includes.messages')
       </div>
       
