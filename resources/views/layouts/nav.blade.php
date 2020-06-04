@@ -42,7 +42,7 @@
           <a class="nav-link" href="/calories">calories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
+          <a class="nav-link" href="/secondContact">Contacts</a>
         </li>
         
         <li class="nav-item">

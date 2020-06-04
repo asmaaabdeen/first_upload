@@ -19,11 +19,12 @@ Route::post('/login','BillingController@savePayment');
 Route::get('/register/submit','customerscontroller@register');
 Route::post('/register','customerscontroller@store');
 
-Route::get('/contacts', function () {
-    return view('contacts');
+
+Route::get('/contact', function () {
+    return view('contact');
 });
-Route::get('/secContact', function () {
-    return view('secContact');
+Route::get('/secondContact', function () {
+    return view('secondContact');
 });
 
 

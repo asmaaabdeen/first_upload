@@ -46,7 +46,7 @@
           <a class="nav-link" href="/calories">Calories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
+          <a class="nav-link" href="/contact">Contacts</a>
         </li>
         
       </ul>

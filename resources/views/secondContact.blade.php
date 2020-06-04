@@ -19,7 +19,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-	<link rel="canonical" href="https://www.weifieldcontracting.com/contact/" />
+	
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="Contact - Weifield Electrical Contracting" />
@@ -31,14 +31,11 @@
 	<!-- / Yoast SEO plugin. -->
 
 
-<link rel='dns-prefetch' href='//s.w.org' />
+
 <link rel="alternate" type="application/rss+xml" title="Weifield Electrical Contracting &raquo; Feed" href="https://www.weifieldcontracting.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Weifield Electrical Contracting &raquo; Comments Feed" href="https://www.weifieldcontracting.com/comments/feed/" />
 
-<link rel="shortcut icon" href="https://www.weifieldcontracting.com/wp-content/uploads/favicon.ico"  />
-<link rel="apple-touch-icon-precomposed" href="http://weifieldgroup.wpengine.com/wp-content/uploads/2016/02/Weifield-Symbol-57x57.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://weifieldgroup.wpengine.com/wp-content/uploads/2016/02/Weifield-Symbol-114x114.png">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://weifieldgroup.wpengine.com/wp-content/uploads/2016/02/Weifield-Symbol-144x144.png">
+
 <script type="text/javascript">window.abb = {};php = {};window.PHP = {};PHP.ajax = "https://www.weifieldcontracting.com/wp-admin/admin-ajax.php";PHP.wp_p_id = "494";var mk_header_parallax, mk_banner_parallax, mk_page_parallax, mk_footer_parallax, mk_body_parallax;var mk_images_dir = "https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/images",mk_theme_js_path = "https://www.weifieldcontracting.com/wp-content/themes/jupiter/assets/js",mk_theme_dir = "https://www.weifieldcontracting.com/wp-content/themes/jupiter",mk_captcha_placeholder = "Enter Captcha",mk_captcha_invalid_txt = "Invalid. Try again.",mk_captcha_correct_txt = "Captcha correct.",mk_responsive_nav_width = 1140,mk_vertical_header_back = "Back",mk_vertical_header_anim = "1",mk_check_rtl = true,mk_grid_width = 1140,mk_ajax_search_option = "fullscreen_search",mk_preloader_bg_color = "#ffffff",mk_accent_color = "#d7df23",mk_go_to_top =  "true",mk_smooth_scroll =  "true",mk_preloader_bar_color = "#d7df23",mk_preloader_logo = "";var mk_header_parallax = false,mk_banner_parallax = false,mk_footer_parallax = false,mk_body_parallax = false,mk_no_more_posts = "No More Posts",mk_typekit_id   = "",mk_google_fonts = ["Open Sans:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900","Oswald:100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic,100,200,300,400,500,600,700,800,900"],mk_global_lazyload = true;</script><link rel='stylesheet' id='layerslider-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.7.6' type='text/css' media='all' />
 <link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.weifieldcontracting.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.7.2' type='text/css' media='all' />
 <style id='rs-plugin-settings-inline-css' type='text/css'>
@@ -121,14 +118,6 @@ if ( (mk_google_fonts.length > 0 || mk_typekit_id.length > 0) && navigator.userA
 var LS_Meta = {"v":"6.7.6"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.6'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.7.6'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7.2'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.2'></script>
-<script type='text/javascript' src='https://www.weifieldcontracting.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.11.4'></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -190,37 +179,44 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
 	
 		
-        <div class="bs-example">
+                <div class="bs-example">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" >
   <div class="container" style="margin-top:0px">
     <a class="navbar-brand" href="#">
-          <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png"  height="32" alt="">
+          <img src="https://s3.amazonaws.com/bucket.leye.co/uploads/2017/06/m-burger@2x.png" style="margin-top:7px" height="28" alt="">
         </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home
-                <span class="sr-only">(current)</span>
-              </a>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/secmenu">Menu</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/menu">Menu</a>
+          <a class="nav-link" href="/calories">calories</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/calories">Calories</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contacts">Contacts</a>
+          <a class="nav-link" href="/secContact">Contacts</a>
         </li>
         
+        <li class="nav-item">
+          <a class="nav-link" href="/feedback">feedback</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/shopping">Order</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">LogOut</a>
+        </li>
       </ul>
     </div>
   </div>
 </nav>
 </div>
+	
 		
 	
 
@@ -319,18 +315,7 @@ Contact: Nate Anderson, TX Division President</span></p></div>
 	</div>
 </div>
 
-<div class="vc_row-full-width vc_clearfix"></div>
 
-
-<div  data-mk-stretch-content="true" class="wpb_row vc_row vc_row-fluid jupiter-donut- mk-fullwidth-false  attched-false     js-master-row  mk-grid">
-	
-<div class="vc_col-sm-12 wpb_column column_container  jupiter-donut- _ jupiter-donut-height-full">
-	
-
-<div id="padding-13" class="mk-padding-divider jupiter-donut-hidden-sm  jupiter-donut-clearfix"></div>
-
-</div>
-	</div>
 
 
 
