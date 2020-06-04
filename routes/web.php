@@ -54,6 +54,8 @@ Route::get('/updates', function () {
    Route::patch('update-order', 'ProductsController@update');
 
    Route::delete('remove-from-order', 'ProductsController@remove');
+   
+   Route::get('/calories', 'PDFController@PDFgenerator');
 
 
     Route::get('/login','customerscontroller@login');

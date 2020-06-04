@@ -16,7 +16,7 @@ class ProductsSeeder extends Seeder
         DB::table('products')->insert([
             'name' => 'Classic',
             'description' => 'BeffPatty,chedderCheese,grilled Onion , cocktailSauce.',
-            'photo' => 'https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4132.png',
+            'photo' => 'https://www.fatburgercanada.com/wp-content/uploads/2015/07/5-Double-Kingburger.png',
             'price' => 20.00
          ]);
 
@@ -87,7 +87,7 @@ class ProductsSeeder extends Seeder
          DB::table('products')->insert([
              'name' => 'Veggier',
              'description' => 'freshgrilledvegetables,broccoli, tomato,freshcucumber.',
-             'photo' => 'https://s3.amazonaws.com/backyardburgers.com/burger.png?mtime=20181025155443',
+             'photo' => ' https://i.dlpng.com/static/png/6953688_preview.png',
              'price' => 30.00
          ]);
          DB::table('products')->insert([

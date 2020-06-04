@@ -17,13 +17,13 @@ class BillingController extends Controller
        $payment -> location =$req -> input('address1');
        $payment -> payment = $req -> input('paymentMethod') ;
        $payment -> save();
-       $title = 'Payment';
-       return view('welcome')->with('title', $title);
-
+       return redirect('/payment')->with('status','your order is finish successfully !');
+     
     }
     public function paymentMethod(){
       $title = 'Payment';
       return view('Paymethod')->with('title', $title);
-}
-
+      
+    }
+     
 }
