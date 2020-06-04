@@ -22,7 +22,7 @@
                             <input type="text" class="form-input" name="lastname" id="lname" placeholder="Last Name"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="adress" id="adress" placeholder="Adress"/>
+                            <input type="text" class="form-input" name="address" id="address" placeholder="Address"/>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-input" name="email" id="email" placeholder="Email"/>

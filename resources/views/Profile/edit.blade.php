@@ -25,7 +25,7 @@
                             <input type="text" class="form-input" name="lastname" id="lname" placeholder="Last Name" value="{{ old( 'Name' , $profile->last_name) }}"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="adress" id="address" placeholder="Adress" value="{{ old( 'Name' , $profile->address) }}"/>
+                            <input type="text" class="form-input" name="address" id="address" placeholder="Address" value="{{ old( 'Name' , $profile->address) }}"/>
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-input" name="email" id="email" placeholder="Email" value="{{ old( 'Name' , $profile->e_mail) }}"/>

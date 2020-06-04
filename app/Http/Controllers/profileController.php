@@ -79,7 +79,7 @@ class profileController extends Controller
              'lastname'  => 'bail|required|max:40',
              
              'email' => 'required|email',
-             'adress'  =>  'required|min:4',
+             'address'  =>  'required|min:4',
              'username'  => 'bail|required|max:30',
              'password'  => 'bail|required|max:15|min:5',
          ]
@@ -90,7 +90,7 @@ class profileController extends Controller
         $profile->e_mail = $request->input('email');
         
         $profile->last_name  = $request->input('lastname');
-        $profile->address = $request->input('adress');
+        $profile->address = $request->input('address');
         $profile->user_name = $request->input('username');
         $profile->password = $request->input('password');
 
